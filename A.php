@@ -1,3 +1,7 @@
 <?php 
-class A{}
+class A{
+	function __construct(){
+		//blank function
+	}
+}
 ?>
