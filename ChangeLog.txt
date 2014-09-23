@@ -1,0 +1,16 @@
+######## project case study #############
+
+# 23/09/2014  <jobbi>
+	improve function Add_profile
+
+# 23/09/2014  <jobbi>
+	improve line 29 (add_Profile.php)
+
+# 23/09/2014  <jobbi>
+	echo function add_Profile and include inbox.php
+
+# 22/09/2014  <jobbi>
+	Deleted login.php
+
+# 22/09/2014 <jobbi>
+	add login.php and bootstrap
