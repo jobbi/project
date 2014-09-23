@@ -8,11 +8,15 @@
 
 <?php
 include_once('Profile.php');
+include_once('inbox.php');
 $obj=new Profile;
-	if(isset($_POST['submit'])&&isset($_GET['id'])){
-		if(isset($_POST)){
-			echo $obj->add_Profile($_POST['name'],$_POST['age'],$_POST['email'],$_GET['id']);
-		}
+	//if(isset($_POST['submit'])&&isset($_GET['id'])){
+		if(isset($_POST['submit'])&&isset($_GET['uid'])){
+			if(isset($_POST)){
+			echo $obj->add_Profile($_POST['name'],$_POST['age'],$_POST['email'],$_GET['uid']);
+			//echo $obj->add_Profile($_POST['name'],$_POST['age'],$_POST['email']);
+			//echo $_GET['uid'];
+		}	
 	}
 ?>
 <div class="container">
