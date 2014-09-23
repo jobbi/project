@@ -1,4 +1,5 @@
 ######## project case study #############
+# 	Writting a changed  project 		#
 
 # 23/09/2014  <jobbi>
 	improve function Add_profile
